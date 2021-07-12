@@ -6,7 +6,7 @@ const moment = require("moment");
 
 const startupPath =
   process.env.ENVIRONMENT === "production"
-    ? "/watch"
+    ? "/local-downloads/Complete"
     : "/Users/backer/Work/docker-unpack-monitor/tmp-test";
 const config = {
   path: startupPath,
